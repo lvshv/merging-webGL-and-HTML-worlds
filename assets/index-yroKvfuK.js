@@ -3357,7 +3357,7 @@ float cnoise(vec3 P){
   vec2 n_yz = mix(n_z.xy, n_z.zw, fade_xyz.y);
   float n_xyz = mix(n_yz.x, n_yz.y, fade_xyz.x); 
   return 2.2 * n_xyz;
-}`;const Hh="/assets/ocean-D1YkPJiA.jpg";var Wh={uniforms:{tDiffuse:{value:null},opacity:{value:1}},vertexShader:`
+}`;const Hh="/vite-react-deploy/assets/ocean-D1YkPJiA.jpg";var Wh={uniforms:{tDiffuse:{value:null},opacity:{value:1}},vertexShader:`
 
 		varying vec2 vUv;
 
