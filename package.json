@@ -1,0 +1,21 @@
+{
+  "name": "three-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "fontfaceobserver": "^2.3.0",
+    "gsap": "^3.12.5",
+    "imagesloaded": "^5.0.0",
+    "three": "^0.133.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8",
+    "vite-plugin-glsl": "^1.2.1"
+  }
+}
